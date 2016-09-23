@@ -5,6 +5,7 @@
 }
 body 
 {
+    background-color: rgba(34, 73, 103, 0.2);
     font-family: Vazir, sans-serif;
     direction: rtl;
     text-align: center;
