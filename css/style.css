@@ -1,24 +1,21 @@
 @font-face
 {
-    font-family: Vazir, sans-serif;
+    font-family: Vazir;
     src: url('../res/fonts/Vazir.ttf');
 }
 body 
 {
-    font-family: Vazir;
+    font-family: Vazir, sans-serif;
     direction: rtl;
     text-align: center;
     margin-top: 5%;
 }
 footer
 {
-    font-family: Vazir;
+    font-family: Vazir, sans-serif;
     direction: rtl;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 2.5%;
 }
-a
-{
-    text-decoration: none;
-}
+
