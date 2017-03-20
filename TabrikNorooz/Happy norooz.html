@@ -20,11 +20,12 @@ html {
   text-shadow: 3px 2px 3px blue;
   /* bring your own prefixes */
   transform: translate(-50%,-80%);
+  direction: rtl;
 }
 
 @font-face {
-  font-family: 'Poiret One';
-  src:url('/BG/PoiretOne-Regular.ttf');
+  font-family: 'vazir';
+  src:url('');
   src: url('webfont.eot'); /* IE9 Compat Modes */
   src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -33,7 +34,8 @@ html {
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 body {
-  font-family: 'Poiret One', Fallback, sans-serif;
+  font-family: 'vazir', Fallback, sans-serif;
+  direction: rtl;
 }
 
 </style>
@@ -62,8 +64,8 @@ body {
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
-      + minutes + " Minutes " + seconds + " Seconds ";
+      document.getElementById("demo").innerHTML = days + " روز " + hours + " ساعت "
+      + minutes + " دقیقه " + seconds + " ثانیه ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
