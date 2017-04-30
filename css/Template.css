@@ -1,0 +1,133 @@
+﻿@font-face {
+    font-family: byekan;
+    src: url('../fonts/W_yekan.ttf') format('truetype');
+}
+@font-face {
+    font-family: gorbeh;
+    src: url('../fonts/Gorbeh-Regular.ttf') format('truetype'), url('../fonts/Gorbeh-Regular.woff') format('woff'), url('../fonts/Gorbeh-Regular.eot') format('embedded-opentype');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.caret {
+    margin-right: 5px;
+}
+
+body {
+    font-family: byekan;
+    direction: rtl;
+}
+
+.gb {
+    font-family: gorbeh;
+}
+
+header {
+    margin-top: 10px;
+}
+
+
+#navCactb {
+    background-color: #40A2D3;
+    margin-top: 20px;
+}
+
+    #navCactb ul a {
+        color: black;
+        font-size: 20px;
+        transition: all 0.3s;
+    }
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 4.5px 0;
+    transition: 0.4s;
+}
+
+.dropcolor a {
+    background-color: white;
+}
+
+
+footer {
+    background-color: #214869;
+    text-align: right;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#navFooter {
+    line-height: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:50px;
+    margin:0px !important;
+}
+
+    #navFooter li {
+        list-style: none;
+    }
+
+    #navFooter a {
+        color: aliceblue;
+        opacity: 0.5;
+        transition: all 0.3s;
+        font-size: 18px;
+    }
+
+#socilaIconFooter {
+    font-size: 30px !important;
+    padding-top: 10px;
+}
+
+    #socilaIconFooter ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    #socilaIconFooter a {
+        color: aliceblue;
+        transition: all 0.3s;
+    }
+
+        #socilaIconFooter a:hover {
+            opacity: 0.5;
+        }
+
+        #navFooter a:hover {
+            opacity: 1;
+            text-decoration: none;
+        }
+
+copyright {
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    background: #18344C;
+    display: block;
+}
+
+.header-line {
+    width: 50px;
+    height: 2px;
+    background-color: #1a53ff;
+    /*margin-right: ;*/
+}
+.fixed{
+    position:fixed;
+    top:0px;
+}
+.navbar-fixed-top{
+    margin:0px !important;  
+    padding-right:30px;
+}
+@media(max-width: 700px) {
+    header h1{
+        text-align:center;
+    }
+}
