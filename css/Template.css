@@ -6,6 +6,10 @@
     font-family: gorbeh;
     src: url('../fonts/Gorbeh-Regular.ttf') format('truetype'), url('../fonts/Gorbeh-Regular.woff') format('woff'), url('../fonts/Gorbeh-Regular.eot') format('embedded-opentype');
 }
+@font-face {
+    font-family: byekanbold;
+    src: url('../fonts/W_yekan Bold.ttf') format('truetype');
+}
 * {
     margin: 0px;
     padding: 0px;
