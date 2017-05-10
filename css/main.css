@@ -77,6 +77,9 @@ a.gb {
     a.gb:hover {
         text-decoration: none;
     }
+    a.gb:active {
+        text-decoration: none;
+    }
 
     a.gb[href*='github']:hover {
         color: #333333;
