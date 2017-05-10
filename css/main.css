@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: 'BYekan';
-    src: url('../font/BYekan.ttf') format('truetype');
+    src: url('../fonts/W_yekan Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'IranNastaliq';
-    src: url('../font/IranNastaliq_p30download.com.ttf') format('truetype');
+    font-family: gorbeh;
+    src: url('../fonts/Gorbeh-Regular.ttf') format('truetype'), url('../fonts/Gorbeh-Regular.woff') format('woff'), url('../fonts/Gorbeh-Regular.eot') format('embedded-opentype');
 }
 
 @keyframes rotate {
@@ -28,17 +28,17 @@
     /*background: #aaa;*/
 }
 
-.small-text{
-    direction:rtl;
+.small-text {
+    direction: rtl;
     font-family: 'BYekan';
-    text-align:center;
+    text-align: center;
 }
 
-    .my-container img[src*='cactbLogo.png'] {
-        /*padding-top: 150px;*/
-        margin-top:100px;
-        animation:rotate 30s linear infinite;
-    }
+.my-container img[src*='cactbLogo.png'] {
+    /*padding-top: 150px;*/
+    margin-top: 100px;
+    animation: rotate 30s linear infinite;
+}
 
 .social {
     height: 60px;
@@ -63,56 +63,39 @@ h2.uni-title {
     float: left;
 }
 
-.social-img {
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    padding: 0;
-    margin: 0px;
+
+.gb {
+    font-family: gorbeh !important;
 }
 
-.social a .dark-github {
-    background: url('../image/dark-git.png');
-    background-size: cover;
-    -webkit-transition: background-image linear 1s;
-    -o-transition: background-image linear 1s;
-    -moz-transition: background-image linear 1s;
-    transition: background-image linear 1s;
+a.gb {
+    font-size: 60px;
+    margin: 0 8px;
+    color: #72797f;
 }
 
-.social a .dark-linkedin {
-    background: url('../image/dark-linkedin.png');
-    background-size: cover;
-}
+    a.gb:hover {
+        text-decoration: none;
+    }
 
-.social a .dark-telegram {
-    background: url('../image/dark-telegram.png');
-    background-size: cover;
-}
+    a.gb[href*='github']:hover {
+        color: #333333;
+    }
 
-.social a .dark-instagram {
-    background: url('../image/dark-instagram.png');
-    background-size: cover;
-}
+    a.gb[href*='linkedin']:hover {
+        color: #0077b5;
+    }
 
+    a.gb[href*='instagram']:hover {
+        background: -webkit-linear-gradient(-45deg,#833ab4,#833ab4,#e1306c,#fcaf45,#f77737 ,#fd1d1d,#fd1d1d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
+    a.gb[href*='telegram']:hover {
+        color: #0088cc;
+    }
 
-.social a .dark-github:hover {
-    background-image: url('../image/color-git.png');
-    background-size: cover;
-}
-
-.social a .dark-linkedin:hover {
-    background-image: url('../image/color-linkedin.png');
-    background-size: cover;
-}
-
-.social a .dark-telegram:hover {
-    background-image: url('../image/color-telegram.png');
-    background-size: cover;
-}
-
-.social a .dark-instagram:hover {
-    background-image: url('../image/color-instagram.png');
-    background-size: cover;
-}
+    a.gb[href*='aparat']:hover {
+        color: #ed145b;
+    }
