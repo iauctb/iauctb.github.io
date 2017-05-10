@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="theme-color" content="#21486a" />
 
-    <link rel="icon" type="image/png" href="../image/cactbicon.png" />
+    <link rel="icon" type="image/png" href="../image/cactbLogo.png" />
 
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/rtl-bootstrap.css" rel="stylesheet" />
@@ -26,7 +26,6 @@
             </div>
         </header>
     </div>
-
     <!--Nav-->
     <nav class="navbar" id="navCactb" style="border-radius:0px;margin-bottom:0px !important;">
         <div class="container-fluid">
@@ -42,38 +41,24 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> خانه <span class="caret"></span></a>
+                        <a class="active-navbar-item" href="#"> خانه </a>
+                        
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> درباره انجمن<span class="caret"></span></a>
                         <ul class="dropdown-menu dropcolor">
-                            <li><a href="#">اخبار</a></li>
-                            <li><a href="#">شبکه های اجتماعی</a></li>
-                            <li><a href="#">عضویت</a></li>
-                            <li><a href="#">معرفی رشته</a></li>
+                            <li><a href="#">تاریخچه</a></li>
+                            <li><a href="../html/About.html">انجمن چیست و چرا باید باشد</a></li>
+                            <li><a href="../html/Structure.html">ساختار انجمن</a></li>
+                            <li><a href="#">اهداف</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> تاریخچه<span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">فعالیت ها<span class="caret"></span></a>
                         <ul class="dropdown-menu dropcolor">
-                            <li><a href="#">انجمن از ابتدا تا کنون</a></li>
-                            <li><a href="#">فعالیت ها</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">  پروژه ها و فعالیت ها<span class="caret"></span></a>
-                        <ul class="dropdown-menu dropcolor">
-                            <li><a href="#">گردهمایی ها</a></li>
+                            <li><a href="../html/Gatherings.html">گردهمایی ها</a></li>
                             <li><a href="#">کارگروه ها</a></li>
                             <li><a href="#">پروژه ها</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> درباره ما<span class="caret"></span> </a>
-                        <ul class="dropdown-menu dropcolor">
-                            <li><a href="#">انجمن چیست و چرا باید باشد؟</a></li>
-                            <li><a href="#">اعضا</a></li>
-                            <li><a href="#">ساختار</a></li>
-
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -105,7 +90,7 @@
 
     <footer>
         <div class="row" id="navFooter" style="margin-right:30px;">
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            <!--<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
                 <h4>خانه</h4><div class="header-line"></div>
                 <ul>
                     <li><a href="#">اخبار</a></li>
@@ -113,39 +98,40 @@
                     <li><a href="#">عضویت</a></li>
                     <li><a href="#">معرفی رشته</a></li>
                 </ul>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            </div>-->
+            <!--<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
                 <h4>تاریخچه</h4><div class="header-line"></div>
                 <ul>
                     <li><a href="#">انجمن از ابتدا تا کنون</a></li>
                     <li><a href="#">فعالیت ها</a></li>
                 </ul>
-            </div>
+            </div>-->
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
-                <h4>پروژه ها و فعالیت ها</h4><div class="header-line"></div>
+                <h4 class="footer-title">فعالیت ها<div class="header-line"></div></h4>
                 <ul>
-                    <li><a href="#">گردهمایی ها</a></li>
+                    <li><a href="../html/Gatherings.html">گردهمایی ها</a></li>
                     <li><a href="#">کارگروه ها</a></li>
                     <li><a href="#">پروژه ها</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
-                <h4>درباره ما</h4><div class="header-line"></div>
+                <h4 class="footer-title"> درباره ما <div class="header-line"></div></h4>
                 <ul>
-                    <li><a href="#" style="font-size:12px;">انجمن چیست و چرا باید باشد؟</a></li>
-                    <li><a href="#">اعضا</a></li>
-                    <li><a href="#">ساختار</a></li>
+                    <li><a href="#">تاریخچه</a></li>
+                    <li><a href="../html/About.html" style="font-size:12px;" >انجمن چیست و چرا باید باشد</a></li>
+                    <li><a href="../html/Structure.html">ساختار انجمن</a></li>
+                    <li><a href="#">اهداف</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-                <h4>ارتباط با ما</h4><div class="header-line"></div>
+                <h4 class="footer-title">ارتباط با ما<div class="header-line"></div></h4>
                 <div id="socilaIconFooter">
                     <ul class="gb">
-                        <li><a href="#"><span class="">&#xe191;</span></a></li>
-                        <li><a href="#"><span class="">&#xe0be;</span></a></li>
-                        <li><a herf="#"><span class="">&#xe0bf;</span></a></li>
-                        <li><a herf="#"><span class="">&#xe15c;</span></a></li>
-                        <li><a herf="#"><span class="">&#xe1a5;</span></a></li>
+                        <li><a href="http://www.aparat.com/cactb/%D8%A7%D9%86%D8%AC%D9%85%D9%86_%D8%B9%D9%84%D9%85%DB%8C_%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF_%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C_%D9%88%D8%A7%D8%AD%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%85%D8%B1%DA%A9%D8%B2" ><span class="">&#xe191;</span></a></li>
+                        <li><a href="https://github.com/iauctb"><span class="">&#xe0be;</span></a></li>
+                        <li><a href="https://www.linkedin.com/company-beta/6638036?pathWildcard=6638036"><span class="">&#xe0bf;</span></a></li>
+                        <li><a href="https://www.instagram.com/cactb"><span class="">&#xe15c;</span></a></li>
+                        <li><a href="https://telegram.me/cactb"><span class="">&#xe1a5;</span></a></li>
                     </ul>
                 </div>
             </div>

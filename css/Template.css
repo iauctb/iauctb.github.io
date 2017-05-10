@@ -99,6 +99,7 @@ footer {
     #socilaIconFooter a {
         color: aliceblue;
         transition: all 0.3s;
+        cursor: pointer;
     }
 
         #socilaIconFooter a:hover {
@@ -122,6 +123,8 @@ copyright {
     width: 50px;
     height: 2px;
     background-color: #1a53ff;
+    margin-top: 10px;
+    transition: all 0.3s ease-in;
     /*margin-right: ;*/
 }
 .fixed{
@@ -136,4 +139,13 @@ copyright {
     header h1{
         text-align:center;
     }
+}
+
+.footer-title:hover div.header-line  {
+     width: 70px;
+}
+
+.active-navbar-item {
+    background: #214869;
+    color: white !important;
 }
