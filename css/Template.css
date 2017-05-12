@@ -20,7 +20,9 @@ p{
 .caret {
     margin-right: 5px;
 }
-
+ul li{
+    list-style:none;
+}
 body {
     font-family: byekan;
     direction: rtl;
