@@ -1,0 +1,47 @@
+#aside{
+    position: fixed;
+    left: 0px;
+    direction: ltr;
+    z-index: 10;
+    font-size: 20px;
+    padding-left:0px;
+}
+#aside ul li{
+    list-style: none;
+    width:150px;
+}
+#aside a{
+    padding:10px;
+    display: inline-block;
+    margin-top: 5px;
+
+    text-align: center;
+    background:#40A2D3;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+    transition: all 0.3s;
+
+}
+#firstAside{
+    width:170px;
+}
+#secondAside{
+    width:155px;
+}
+#thirdAside{
+    width:140px;
+}
+#aside a:hover{
+    width:180px;
+}
+
+.textProjects {
+    font-size: 20px !important;
+}
+
+.textBoxProjects {
+    padding:30px;
+}
