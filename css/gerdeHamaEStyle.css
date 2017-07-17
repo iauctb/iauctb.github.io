@@ -61,7 +61,7 @@ h3 {
     background-color: rgba(255,255,255,0.80);
     padding: 10px;
     margin-top: 0px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
 }
 
@@ -78,7 +78,7 @@ h3 {
 }
 
 #secondText {
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
 }
 
@@ -102,7 +102,7 @@ h3 {
     width: 100%;
     height: 500px;
     background-image: url('../image/Gatherings/FirstGathering.jpg');
-    background-position: center;
+    /*background-position: center;*/
     background-size: cover;
     background-attachment: fixed;
     margin-top: 100px;
@@ -112,7 +112,7 @@ h3 {
     width: 100%;
     height: 500px;
     background-image: url('../image/Gatherings/SecondGathering.jpg');
-    /*background-position: center;*/
+    background-position: center;
     background-size: cover;
     /*background-attachment: fixed;*/
     margin-top: 100px;

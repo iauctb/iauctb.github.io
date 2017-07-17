@@ -3,10 +3,10 @@
 <head>
     <title>انجمن علمی کامپیوتر</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#21486a" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="../image/cactbLogo.png" />
 
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -24,7 +24,7 @@
                 <img src="../image/cactbLogo.png" class="img-responsive center-block" width="200" alt="انجمن علمی کامپیوتر" />
             </div>
             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                <h1>انجمن علمی کامپیوتر<br class="visible-xs"/><small style="font-size:10px">دانشگاه آزاد اسلامی واحد تهران مرکزی</small></h1>
+                <h1>انجمن علمی کامپیوتر<small style="font-size:10px"><br/>دانشگاه آزاد اسلامی واحد تهران مرکزی</small></h1>
             </div>
         </header>
     </div>
@@ -43,11 +43,11 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a class="" href="#"> خانه </a>
+                        <a class="active-navbar-item" href="../html/Home.html"> خانه </a>
 
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle active-navbar-item" data-toggle="dropdown" href="#"> درباره انجمن<span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> درباره انجمن<span class="caret"></span></a>
                         <ul class="dropdown-menu dropcolor">
                             <li><a href="#">تاریخچه</a></li>
                             <li><a href="../html/About.html">انجمن چیست و چرا باید باشد</a></li>
@@ -59,16 +59,12 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">فعالیت ها<span class="caret"></span></a>
                         <ul class="dropdown-menu dropcolor">
                             <li><a href="../html/Gatherings.html">گردهمایی ها</a></li>
-                            <li><a href="#">کارگروه ها</a></li>
-                            <li><a href="#">پروژه ها</a></li>
+                            <li><a href="../html/Workgroup.html">کارگروه ها</a></li>
+                            <li><a href="../html/Projects.html">پروژه ها</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> ارتباط با ما<span class="caret"></span> </a>
-                        <ul class="dropdown-menu dropcolor">
-                            <li><a href="#">شبکه های اجتماعی</a></li>
-                            <li><a href="#">ایمیل انجمن</a></li>
-                        </ul>
+                        <a class="" href="../html/ContactUs.html"> ارتباط با ما </a>
                     </li>
                 </ul>
             </div>
@@ -78,8 +74,8 @@
     <!----------------------------------------------------Page Place Holder----------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------->
     <style media="screen">
-        .container-fluid {
-            font-size: 25px;
+        .container {
+            font-size: 24px;
         }
 
         h3 {
@@ -99,7 +95,7 @@
     <!--head-------------------------------------------------Put your css here-------------------------------------------------->
     <!--/head-->
     <!--body----------------------------------------Code Your Conteiner here---------------------------------------------------->
-    <article class="container-fluid">
+    <article class="container">
         <h3 class="col-xs-12 titr1">درباره انجمن</h3>
 
         <h3 class="titr">انجمن علمی چیست؟</h3>
@@ -119,10 +115,10 @@
                 <li>- مهارت هم‌اندیشی، آزاداندیشی و تفکر انتقادی </li>
             </ul>
             <p class="text-justify">
-                چنین توانمندی‌ها و مهارت‌هایی است که خروجی دانشگاه‌ها را در عمل شایسته‌ تر و توانمندتر می‌سازد. 
+                چنین توانمندی‌ها و مهارت‌هایی است که خروجی دانشگاه‌ها را در عمل شایسته‌ تر و توانمندتر می‌سازد.
             </p>
             <p class="text-justify">
-                اما سوالی در این‎جا قابل طرح است: عموما فعالیت دانشجویی به چنین مهارت‌هایی منجر می‌شود؛ پس فعالیت در انجمن‌های علمی دانشجویی چه تفاوت ویژه‌ای با فعالیت در دیگر مجموعه‌های داوطلبانه دارد؟ 
+                اما سوالی در این‎جا قابل طرح است: عموما فعالیت دانشجویی به چنین مهارت‌هایی منجر می‌شود؛ پس فعالیت در انجمن‌های علمی دانشجویی چه تفاوت ویژه‌ای با فعالیت در دیگر مجموعه‌های داوطلبانه دارد؟
             </p>
             <p class="text-justify">
                 در واقع تفاوت مهم در آن است که تجربه انجمن علمی افراد را در حوزه‌ی تخصصی و زمینه علمی که در آن مشغول به تحصیل هستند، کارآزموده می‌سازد. به عبارتی، فرد پیش از ورود به دنیای حرفه‌ای خواهد آموخت آن‌چه را که باید و از این رهگذر نسبت به هم‌دوره‌ای‌های خود چند گام جلوتر خواهد بود. بالتبع کارفرمایان و صاحبان صنایع و مشاغل ترجیح می‌دهند افرادی را به استخدام درآورند که چنین تجربه‌هایی را نیز در چنته‌ی خود داشته باشند.
@@ -142,7 +138,7 @@
         <h3 class="titr">معرفی هیئت مدیره </h3>
 
         <div class="col-xs-12">
-            <p  class="text-justify">
+            <p class="text-justify">
                 هیئت مدیره‌ اساسی‌ترین نهاد اجرایی انجمن می‌باشد و مسئولیت اداره و ادامه‌ی حیات انجمن را برعهده دارد. <br>
                 اعضای هیئت مدیره هر دو سال یک بار با رای اعضای رسمی انتخاب می‌شوند که به شرح زیر میباشند.
                 بالاترین رکن سازمانی انجمن و تنها رکنی است که به صورت برون سازمانی هویت حقوقی دارد.
@@ -154,7 +150,7 @@
         <h3 class="titr">واحد اجرایی</h3>
 
         <div class="col-xs-12">
-            <p  class="text-justify">
+            <p class="text-justify">
                 واحد اجرایی توسط مدیر اجرایی راهبری میشود. <br>
                 مدت انتصاب مدیر اجرایی یک ترم است و توسط هیئت مدیره صورت میگیرد. <br>
                 مدیر اجرایی حتما باید عضو اصلی انجمن باشد.

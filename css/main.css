@@ -36,7 +36,7 @@
 
 .my-container img[src*='cactbLogo.png'] {
     /*padding-top: 150px;*/
-    margin-top: 100px;
+    margin-top: 10px;
     animation: rotate 30s linear infinite;
 }
 
@@ -46,7 +46,8 @@
     margin-top: 20px;
     max-height: 100%;
     max-width: 100%;
-    text-align: center
+    text-align: center;
+    font-size: 30px;
 }
 
 h2.cactb-title {
@@ -62,9 +63,6 @@ h2.uni-title {
     text-align: center;
 }
 
-.a-social {
-    float: left;
-}
 
 
 .gb {
@@ -72,9 +70,12 @@ h2.uni-title {
 }
 
 a.gb {
-    font-size: 60px;
     margin: 0 8px;
     color: #72797f;
+    transition: 800ms all ease-out;
+    -moz-transition: 800ms all ease-out;
+    -o-transition: 800ms all ease-out;
+    -webkit-transition: 200ms all ease-out;
 }
 
     a.gb:hover {
@@ -107,4 +108,35 @@ a.gb {
 
     a.gb[href*='aparat']:hover {
         color: #ed145b;
+    }
+    @media screen and (max-width: 768px) {
+        .my-container img[src*='cactbLogo.png'] {
+            width: 350px;
+        }
+        .cactb-title {
+            font-size: 30px !important;
+            margin: 5px 0;
+        }
+        .uni-title {
+            margin: 5px 0;
+            font-size: 15px !important;
+        }
+        a.gb {
+            margin: 0px 2px;
+        }
+    }
+
+    @media screen and (max-width: 992px) and (min-width: 768px){}
+
+    @media screen and (max-width: 1200px) and (min-width: 992px) {
+        .my-container img[src*='cactbLogo.png'] {
+            width: 300px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .my-container img[src*='cactbLogo.png'] {
+            width: 350px;
+        }
+
     }

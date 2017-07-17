@@ -331,3 +331,27 @@ transition: all .35s ease 0s;
     background: #214869;
     color: white !important;
 }
+
+
+
+
+
+
+    @media screen and (max-width: 768px) {
+         header div  h1 {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        
+    }
+
+    @media screen and (max-width: 1200px) and (min-width: 992px) {
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+
+    }

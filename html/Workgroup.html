@@ -24,7 +24,7 @@
                 <img src="../image/cactbLogo.png" class="img-responsive center-block" width="200" alt="انجمن علمی کامپیوتر" />
             </div>
             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                <h1>انجمن علمی کامپیوتر<small style="font-size:15px"><br/>دانشگاه آزاد اسلامی واحد تهران مرکزی</small></h1>
+                <h1>انجمن علمی کامپیوتر<small style="font-size:10px"><br/>دانشگاه آزاد اسلامی واحد تهران مرکزی</small></h1>
             </div>
         </header>
     </div>
@@ -44,7 +44,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a class="active-navbar-item" href="../html/Home.html"> خانه </a>
-                        
+
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"> درباره انجمن<span class="caret"></span></a>
@@ -64,7 +64,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class=""  href="../html/ContactUs.html"> ارتباط با ما </a>
+                        <a class="" href="../html/ContactUs.html"> ارتباط با ما </a>
                     </li>
                 </ul>
             </div>
@@ -74,18 +74,26 @@
     <!----------------------------------------------------Page Place Holder----------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--head-------------------------------------------------Put your css here-------------------------------------------------->
-
+    <link href="../css/workgroupStyle.css" rel="stylesheet" type="text/css">
     <!--/head-->
     <!--body----------------------------------------Code Your Conteiner here---------------------------------------------------->
-    <article class="container-fluid">
+    <article class="container">
+        
 
+        <div class="textBoxProjects">
+            <div class="title">
+                <h2>کارگروه ها</h2>
+            </div>
+            <div class="content">
+                <p class="textProjects">کارگروه محفلی است برای ارتقاء سطح علمی و عملی دانشجویان توسط دانشجویان متشکل از یک سرپرست و تعدادی رهجو به نحوی که تنها ارائه دهنده سرپرست نمیباشد و رهجویان نیز من باب موضوع کارگروه ارائه میدهند و همگام با ارتقاء سطح علمی و عملی خود ، به دیگران کمک کرده تا سطح خود را در موضوع یاد شده افزایش دهند و به افراد دیگر منتقل کنند.</p>
+            </div>
+        </div>
     </article>
     <!--/body-->
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!---------------------------------------------------/Page Place Holder/---------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--Footer-->
-
     <footer>
         <div class="row" id="navFooter" style="margin-right:30px;">
             <!--<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
@@ -116,7 +124,7 @@
                 <h4 class="footer-title"> درباره ما <div class="header-line"></div></h4>
                 <ul>
                     <li><a href="#">تاریخچه</a></li>
-                    <li><a href="../html/About.html" style="font-size:12px;" >انجمن چیست و چرا باید باشد</a></li>
+                    <li><a href="../html/About.html" style="font-size:12px;">انجمن چیست و چرا باید باشد</a></li>
                     <li><a href="../html/Structure.html">ساختار انجمن</a></li>
                     <li><a href="#">اهداف</a></li>
                 </ul>
@@ -125,7 +133,7 @@
                 <h4 class="footer-title">ارتباط با ما<div class="header-line"></div></h4>
                 <div id="socilaIconFooter">
                     <ul class="gb">
-                        <li><a href="http://www.aparat.com/cactb/%D8%A7%D9%86%D8%AC%D9%85%D9%86_%D8%B9%D9%84%D9%85%DB%8C_%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF_%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C_%D9%88%D8%A7%D8%AD%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%85%D8%B1%DA%A9%D8%B2" ><span class="">&#xe191;</span></a></li>
+                        <li><a href="http://www.aparat.com/cactb/%D8%A7%D9%86%D8%AC%D9%85%D9%86_%D8%B9%D9%84%D9%85%DB%8C_%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF_%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C_%D9%88%D8%A7%D8%AD%D8%AF_%D8%AA%D9%87%D8%B1%D8%A7%D9%86_%D9%85%D8%B1%DA%A9%D8%B2"><span class="">&#xe191;</span></a></li>
                         <li><a href="https://github.com/iauctb"><span class="">&#xe0be;</span></a></li>
                         <li><a href="https://www.linkedin.com/company-beta/6638036?pathWildcard=6638036"><span class="">&#xe0bf;</span></a></li>
                         <li><a href="https://www.instagram.com/cactb"><span class="">&#xe15c;</span></a></li>
@@ -142,17 +150,17 @@
         </copyright>
     </footer>
     <script>
-        var nav_offset = $("#navCactb").offset().top;
-        var scroll = 0;
-        $(window).scroll(function () {
-            scroll = $(window).scrollTop().valueOf();
-            if (scroll >= nav_offset) {
-                $("#navCactb").addClass("navbar-fixed-top");
-            }
-            else {
-                $("#navCactb").removeClass("navbar-fixed-top");
-            }
-        });
+    var nav_offset = $("#navCactb").offset().top;
+    var scroll = 0;
+    $(window).scroll(function () {
+        scroll = $(window).scrollTop().valueOf();
+        if (scroll >= nav_offset) {
+            $("#navCactb").addClass("navbar-fixed-top");
+        }
+        else {
+            $("#navCactb").removeClass("navbar-fixed-top");
+        }
+    });
     </script>
 </body>
 </html>
